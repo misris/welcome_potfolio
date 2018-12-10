@@ -1,0 +1,26 @@
+{
+  "user":{
+    "name": "user",
+    "prefix": "fas"
+  },
+  "twitter": {
+    "name": "twitter",
+    "prefix": "fab"
+  },
+  "wordpress":{
+    "name": "wordpress",
+    "prefix": "fab"
+  },
+  "envelope":{
+    "name": "envelope",
+    "prefix": "fas"
+  },
+  "folder-open":{
+    "name": "folder-open",
+    "prefix": "fas"
+  },
+  "youtube":{
+    "name": "youtube",
+    "prefix": "fab"
+  }
+}
