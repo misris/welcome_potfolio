@@ -84,7 +84,7 @@ export default {
 
 .character img{
   width: 100%;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 </style>

@@ -5,6 +5,7 @@ import Title from '@/components/Title'
 import Content from '@/components/Content'
 import Icon from '@/components/Icon'
 import Character from '@/components/Character'
+import IconDetail from '@/components/iconDetail'
 
 Vue.use(Router)
 
@@ -17,11 +18,19 @@ export default new Router({
         { path: '',
           components:{
             title: Title,
-            content: Content
+            content: Content,
+            iconDetail: IconDetail
           },
           children: [
             {
               path: '',
+              components:{
+                icon: Icon,
+                character: Character
+              }
+            },
+            {
+              path: ':page',
               components:{
                 icon: Icon,
                 character: Character

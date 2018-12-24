@@ -1,8 +1,10 @@
 <template>
   <div class="icon">
-    <div class="icon-content" ref="icon-content" v-bind:class="icon.name" v-on:mouseover="mouseover">
-      <font-awesome-icon :icon="{ prefix: icon.prefix, iconName: icon.name }"/>
-    </div>
+    <router-link :to="icon.page">
+      <div class="icon-content" ref="icon-content" v-bind:class="icon.name" v-on:mouseover="mouseover">
+        <font-awesome-icon :icon="{ prefix: icon.prefix, iconName: icon.name }"/>
+      </div>
+    </router-link>
   </div>
 </template>
 
@@ -34,8 +36,6 @@ export default {
 
 <style scoped>
 .icon {
-  margin-bottom: 3rem;
-  width: 50%;
   height: 5rem;
   display: inline-block;
   -moz-box-sizing: border-box;
@@ -62,34 +62,15 @@ export default {
   display: inline-block;
   border-radius: 50%;
   color: white;
-  border: 1px solid black;
-}
-
-.user {
-  background: #B3E2B4;
-}
-
-.twitter {
-  background: #ABE7FF;
+  border: 1px solid #aaa;
 }
 
 .wordpress {
   right: 60%;
-  background: #DBDBDB;
-}
-
-.folder-open {
-  background: #FFD580;
 }
 
 .envelope {
   left: 60%;
-  background: #B8B2EA;
-}
-
-
-.youtube {
-  background: #FF7D7D;
 }
 
 </style>

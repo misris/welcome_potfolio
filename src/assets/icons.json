@@ -1,26 +1,32 @@
 {
-  "user":{
+  "profile":{
     "name": "user",
-    "prefix": "fas"
+    "prefix": "fas",
+    "page": "profile"
   },
   "twitter": {
     "name": "twitter",
-    "prefix": "fab"
+    "prefix": "fab",
+    "page": "twitter"
   },
-  "wordpress":{
+  "blog":{
     "name": "wordpress",
-    "prefix": "fab"
+    "prefix": "fab",
+    "page": "blog"
   },
-  "envelope":{
+  "contact":{
     "name": "envelope",
-    "prefix": "fas"
+    "prefix": "fas",
+    "page": "contact"
   },
-  "folder-open":{
+  "works":{
     "name": "folder-open",
-    "prefix": "fas"
+    "prefix": "fas",
+    "page": "works"
   },
-  "youtube":{
+  "channel":{
     "name": "youtube",
-    "prefix": "fab"
+    "prefix": "fab",
+    "page": "channel"
   }
 }
